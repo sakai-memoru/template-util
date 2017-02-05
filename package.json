@@ -1,0 +1,24 @@
+{
+  "name": "template-util",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "mocha ./test/*.test.js"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "sakai.memoru",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^1.25.1",
+    "cson": "^4.0.0",
+    "mustache": "^2.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
