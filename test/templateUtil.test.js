@@ -3,7 +3,7 @@ const expect = require('chai').expect;
 
 describe('templateUtil unit test',()=>{
   describe('#merge function',()=>{
-    it('expect merged return string to be expected',()=>{
+    it('expect merged return-strings to be expected',()=>{
       // Arrange
       let paramObj = {
         name : 'sakai',
